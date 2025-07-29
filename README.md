@@ -1,8 +1,8 @@
 # SPRING AI PRACTICE 
-1. 🧠 What is Artificial Intelligence?
+1. **🧠 What is Artificial Intelligence?**
 Artificial Intelligence is when computers or machines are designed to think and learn like humans.
 
-✅ How it works (in simple terms):
+**✅ How it works (in simple terms):**
 Imagine teaching a child how to:
 
 Recognize animals 🐶🐱
@@ -19,7 +19,7 @@ Training it with examples
 
 Letting it learn from patterns in the data
 
-🤖 Examples of AI in real life:
+**🤖 Examples of AI in real life:**
 Google Assistant / Siri – Understands your voice
 
 Netflix – Recommends movies you might like
@@ -28,7 +28,7 @@ Self-driving cars – See the road and make decisions
 
 ChatGPT – Answers your questions like a human
 
-🎯 In short:
+**🎯 In short:**
 AI = Smart computer systems that can learn, decide, and solve problems like humans.
 
 2. **Machine Learning** is a **way for computers to learn from experience** — **without being directly programmed** for every task.
@@ -409,6 +409,60 @@ This is an example of **MCP** — you’re **controlling how the model uses both
 > **MCP (Modality Control Prompting)** is a way to guide a multi-modal LLM on how to use or respond to different types of input like text, image, or both.
 
 ---
+
+10. ### 🧠 **What is Claude?**
+
+**Claude** is a smart AI chatbot — like ChatGPT — created by a company called **Anthropic**.
+
+---
+
+### 👥 **Who made it?**
+
+* Claude is made by **Anthropic**, a company started by **former OpenAI employees**.
+* They focus on building AI that is **helpful, honest, and harmless**.
+
+---
+
+### 🤖 **What can Claude do?**
+
+Just like ChatGPT, Claude can:
+
+* Answer questions 💬
+* Write emails, stories, or code ✍️
+* Summarize documents 📄
+* Chat with you naturally 🧠
+
+Claude is especially known for being:
+
+* **Careful with safety**
+* **Very polite**
+* **Good at long conversations**
+
+---
+
+### 🔁 **Why is it called "Claude"?**
+
+It’s named after **Claude Shannon**, the father of information theory — someone who helped invent the science behind computers understanding information.
+
+---
+
+### 🧠 Claude vs ChatGPT (Simple Comparison):
+
+| Feature  | Claude                   | ChatGPT                  |
+| -------- | ------------------------ | ------------------------ |
+| Made by  | Anthropic                | OpenAI                   |
+| Focus    | Safety + long memory     | Accuracy + creativity    |
+| Tone     | More cautious + friendly | More flexible            |
+| Used for | Writing, Q\&A, summaries | Same, plus plugins/tools |
+
+---
+
+### 🎯 In short:
+
+> **Claude is an AI assistant made by Anthropic that can chat, answer questions, and help you — with a focus on safety and long conversations.**
+
+
+
 
 
 
