@@ -1,6 +1,5 @@
 package dev.engripaye.spring_ai_workshop;
 
-import org.springframework.ai.anthropic.AnthropicChatModel;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.boot.SpringApplication;
@@ -15,4 +14,9 @@ public class SpringAiWorkshopApplication {
 		SpringApplication.run(SpringAiWorkshopApplication.class, args);
 	}
 
+	@Bean
+	public ChatClient openAiChatClient(OpenAiChatModel chatModel){
+
+		return ChatClient.create(chatModel);
+	}
 }
