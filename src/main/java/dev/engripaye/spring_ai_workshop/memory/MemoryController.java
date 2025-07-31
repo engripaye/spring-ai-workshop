@@ -3,21 +3,19 @@ package dev.engripaye.spring_ai_workshop.memory;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.ai.openai.OpenAiChatModel;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class MemoryController {
 
     private final ChatClient chatClient;
 
-
-    public MemoryController(ChatClient chatClient, ChatMemory chatMemory) {
-        this.chatClient = ChatClient.builder(
-                .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
-                .build();
-        )
+    public MemoryController(OpenAiChatModel chatModel, ChatMemory chatMemory) {
+        this.chatClient = ChatClient.create(
+                chatModel // ✅ First: provide ChatModel
+                // ✅ Second: add memory
+        );
     }
 
     @GetMapping("/memory")
@@ -26,6 +24,5 @@ public class MemoryController {
                 .user(message)
                 .call()
                 .content();
-
     }
 }
